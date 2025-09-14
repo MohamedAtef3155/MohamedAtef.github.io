@@ -31,7 +31,7 @@
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/mohamed-atef-hefny-42a31724b/" class="icon brands alt fa-linkedin"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/MohamedAtef3155" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://github.com/MohamedAtef3155" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
@@ -41,19 +41,70 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-						
-									<h2><a href="https://github.com/MohamedAtef3155/Datawarehouse-tutorial">datawarehouse tutorial<br />
+									<h2><a href="https://github.com/MohamedAtef3155/Datawarehouse-tutorial">Data Warehouse Tutorial<br />
 									</a></h2>
-									<p>this tutorial concentrates on data warehouse design from scratch<br />
-									.</p>
+									<p>This article explains the difference between OLTP and OLAP systems, and why data warehouses are essential for modern analytics.</p>
 								</header>
 								<div class="image main"><img src="images/Datawarehouse.jpg" alt="" /></div>
-								<p>first it started with tables and how to make er diagram.</p>
-								<p>then it differentiated between OLTP and OLAP.</p>
-								<p>then it differentiated between traditional databases , datawarehouses , datalakes.</p>
-								<p>then the core of the toturial which is datawarehouse design and dimensional modelling , dimension keys ,dimension types , fact types , star and snowflake schema.</p>
-								<p>normal forms.</p>
-								<p>table partitioning.</p>
+
+								<article id="dw-introduction" aria-labelledby="dw-title">
+								  <header>
+								    <h3 id="dw-title">Why We Use OLAP and Data Warehouses</h3>
+								    <p>
+								      Modern organizations generate large amounts of data every day. To make sense of this data, it is important 
+								      to understand the difference between systems designed for operations (OLTP) and systems designed for analytics (OLAP).
+								    </p>
+								  </header>
+
+								  <!-- OLTP -->
+								  <section aria-labelledby="oltp">
+								    <h4 id="oltp">OLTP: Online Transaction Processing</h4>
+								    <p>
+								      OLTP systems are built to handle high volumes of short, simple transactions such as inserting, updating, 
+								      or deleting records. Examples include banking systems, retail checkouts, and booking platforms.
+								    </p>
+								    <ul>
+								      <li>Fast response times for day-to-day operations</li>
+								      <li>Highly normalized databases to avoid redundancy</li>
+								      <li>Ensures data integrity and consistency</li>
+								    </ul>
+								  </section>
+
+								  <!-- OLAP -->
+								  <section aria-labelledby="olap">
+								    <h4 id="olap">OLAP: Online Analytical Processing</h4>
+								    <p>
+								      OLAP systems are designed for complex queries and large-scale data analysis. Instead of focusing 
+								      on single transactions, OLAP supports aggregations, trends, and multi-dimensional analysis.
+								    </p>
+								    <ul>
+								      <li>Helps discover patterns and business insights</li>
+								      <li>Uses denormalized schemas (Star/Snowflake) for faster reporting</li>
+								      <li>Ideal for dashboards, KPIs, and decision support</li>
+								    </ul>
+								  </section>
+
+								  <!-- Data Warehouse -->
+								  <section aria-labelledby="data-warehouse">
+								    <h4 id="data-warehouse">The Role of a Data Warehouse</h4>
+								    <p>
+								      A data warehouse serves as the central repository that integrates data from multiple OLTP systems. 
+								      It transforms raw data into a consistent, structured format that is optimized for OLAP queries and reporting.
+								    </p>
+								    <ul>
+								      <li>Consolidates data from different sources (ERP, CRM, applications)</li>
+								      <li>Stores historical data for long-term trend analysis</li>
+								      <li>Improves decision-making by providing a single source of truth</li>
+								    </ul>
+								  </section>
+
+								  <footer>
+								    <p>
+								      In short, OLTP systems keep businesses running day-to-day, while OLAP and Data Warehouses 
+								      empower organizations to analyze data, identify opportunities, and make informed decisions.
+								    </p>
+								  </footer>
+								</article>
 							</section>
 
 					</div>
@@ -63,22 +114,22 @@
 						
 					<section class="split contact">
 						<section class="alt">
-							<h3>Address 1</h3>
+							<h3>Address</h3>
 							<p>6th of Octobar, Giza, Egypt.<br />
-							
+							</p>
 						</section>
+						<section>
+							<h3>Gmail</h3>
+							<p><a href="mailto:MohamedAtef3155@gmail.com">MohamedAtef3155@gmail.com</a></p>
+						</section>
+						<section>
 							<h3>Phone</h3>
 							<p><a href="#">+2 01551176262</a></p>
 						</section>
 						<section>
-							<h3>Gmail</h3>
-							<p><a href="MohamedAtef3155@gmail.com">MohamedAtef3155@gmail.com</a></p>
-						</section>
-						<section>
 							<h3>Social</h3>
 							<ul class="icons alt">
-							
-								<li><a href="https://www.linkedin.com/in/mohamed-atef-hefny-42a31724b/" class="icon brands alt fa-linkedin"><span class="label">Instagram</span></a></li>
+								<li><a href="https://www.linkedin.com/in/mohamed-atef-hefny-42a31724b/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 								<li><a href="https://github.com/MohamedAtef3155" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 							</ul>
 						</section>
@@ -104,4 +155,3 @@
 
 	</body>
 </html>
-
