@@ -6,6 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Overrides to keep h3 normal case and adjust skills line */
+			#intro h3.no-caps { text-transform: none !important; letter-spacing: 0 !important; font-weight: 600; }
+			#intro .skills-line { font-size: 0.95rem; font-weight: 400; text-transform: none; opacity: 0.9; margin-top: 0.25rem; }
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -13,7 +18,7 @@
 
 			<div id="intro">
 				<h1>Mohamed Atef <br />Portfolio</h1>
-				<h3>Mohamed Atef Hefny | BI Developer & Certified Tableau Consultant | Certified Alteryx Designer Core< <a href="https://www.linkedin.com/in/mohamed-atef-hefny-dataplus/">@MohamedAtef</a></h3>
+				<h3 class="no-caps">Mohamed Atef Hefny | BI Developer & Certified Tableau Consultant | Certified Alteryx Designer Core <a href="https://www.linkedin.com/in/mohamed-atef-hefny-dataplus/">@MohamedAtef</a></h3>
 				<p class="skills-line">Skilled at Tableau, Power BI, SQL, Databricks, ETL, Data Modeling, and Python</p>
 				<ul class="actions">
 					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -177,7 +182,3 @@
 
 	</body>
 </html>
-
-
-
-
